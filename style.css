@@ -17,7 +17,7 @@ body {
   background-color: steelblue;
 }
 .container {
-  padding: 40px 20px;
+  padding:  20px 40px;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.4);
 }
@@ -42,6 +42,7 @@ body {
   border-radius: 5px;
   border: 0;
   display: inline-block;
+  padding: 15px;
 }
 
 .btn:focus {
@@ -53,7 +54,7 @@ body {
 }
 
 .text {
-  margin-top: 30PX;
+  margin-top: 30px;
 }
 
 .form-control {
@@ -71,10 +72,10 @@ body {
   width: 100%;
   font-size: 18px;
   color: #fff;
-
 }
 
-.form-control:focus,.form-control:valid {
+.form-control input:focus,
+.form-control input:valid {
   outline: 0;
   border-bottom-color: steelblue;
 }
@@ -84,4 +85,3 @@ body {
   top: 15px;
   left: 0;
 }
-
